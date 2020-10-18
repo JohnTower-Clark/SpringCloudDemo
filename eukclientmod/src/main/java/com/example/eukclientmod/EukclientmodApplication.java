@@ -25,7 +25,7 @@ public class EukclientmodApplication {
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi eurk  " + name + " ,I am Clark from port:" + port;
+        return "hi eurk  " + name + " ,I am cloud-client from port:" + port;
     }
 
 
